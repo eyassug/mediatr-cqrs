@@ -1,6 +1,6 @@
 ﻿namespace MediatR.CQRS
 {
-    public class IQuery<TResponse> : IRequest<TResponse>
+    public interface IQuery<TResponse> : IRequest<TResponse>
     {
 
     }
